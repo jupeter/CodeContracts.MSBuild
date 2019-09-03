@@ -1,29 +1,29 @@
-CodeContracts.MSBuild
-=====================
+CodeContracts.MSBuild.v2
+========================
 
 Standalone MSBuild integration for [Microsoft CodeContracts](https://github.com/microsoft/codecontracts) (by Microsoft Research).
 
 ## Installation
 
-Simply add `CodeContracts.MSBuild` nuget to projects that use Code Contracts.
+Simply add `CodeContracts.MSBuild.v2` nuget to projects that use Code Contracts.
 
 From package manager:
 
 ```
-Install-Package CodeContracts.MSBuild
+Install-Package CodeContracts.MSBuild.v2
 ```
 
 From .Net CLI:
 
 ```
-dotnet add package CodeContracts.MSBuild
+dotnet add package CodeContracts.MSBuild.v2
 ```
 
 ## Settings
 
 ### `DontOverrideCodeContractsInstallDir`, `CodeContractsInstallDir`
 
-By default `CodeContracts.MSBuild` uses CodeContracts version that is bundled with this package.
+By default `CodeContracts.MSBuild.v2` uses CodeContracts version that is bundled with this package.
 
 However, if you want to use custom CodeContracts installation,
 you can define the following MSBuild properties in your project file:
@@ -37,7 +37,7 @@ you can define the following MSBuild properties in your project file:
 
 ### `CodeContracts*`
 
-`CodeContracts.MSBuild` defines a bunch of default properties that are used by Microsoft CodeContracts.
+`CodeContracts.MSBuild.v2` defines a bunch of default properties that are used by Microsoft CodeContracts.
 Please refer to CodeContracts for meaning of these options.
 
 | Property | Default value | Description |
